@@ -1,0 +1,23 @@
+# Archivos locales y secretos: no incluir en el repositorio.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.log
+*.pdf
+*.docx
+*.odg
+*.zip
+*.bak
+settings.json
+config.toml
+!config.toml.example
+.vscode/
+.codex/
+__pycache__/
+*.pyc

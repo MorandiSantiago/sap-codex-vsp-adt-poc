@@ -1,0 +1,18 @@
+# Ejemplo ficticio basado en los nombres de parámetros de la guía.
+# Reemplazar rutas y datos por valores autorizados antes de usarlo.
+# No guardar la contraseña en este archivo.
+
+[mcp_servers.sap_demo]
+command = 'C:\example\vsp\vsp.exe'
+args = [
+  "--mode", "hyperfocused",
+  "--transport", "stdio",
+  "--url", "https://sap.example.invalid:44300",
+  "--user", "demo_developer",
+  "--client", "999",
+  "--read-only=true",
+  "--allow-transportable-edits=false",
+  "--enable-transports=false",
+]
+env_vars = ["SAP_PASSWORD"]
+cwd = 'C:\example\sap-workspace'
